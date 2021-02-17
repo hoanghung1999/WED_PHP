@@ -1,0 +1,99 @@
+.schedule-task-item-container {
+    background-color:#7ab1ff;
+    display: flex;
+    padding: 3rem;
+    font-family: Roboto;
+    border-radius: 0.35rem;
+    color: #FFFFFF;
+  }
+  .background{
+      background-image: url('/assets/img/theme/Nen.jpg');
+  }
+  .schedule-task-item-container:nth-of-type(2) {
+    background-color: #ff867a;
+    color: #FFFFFF;
+  }
+  
+  .schedule-task-item-container:nth-of-type(3) {
+    background-color: #ffb347
+  }
+  
+  .schedule-task-item-container:nth-of-type(7) {
+    background-color: #ff7ab1;
+    color: #FFFFFF;
+  }
+  
+  .schedule-task-item-container:nth-of-type(9) {
+    background-color: #cbb6f6;
+    color: #FFFFFF;
+  }
+  
+  .schedule-task-item-container:nth-of-type(11) {
+    background-color: #ffb347;
+  }
+  
+  .schedule-task-item-container:nth-of-type(13) {
+    background-color: #7ab1ff;
+  }
+  
+  .schedule-task-item-due {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 12%;
+  }
+  
+  .schedule-task-item-due-upper {
+    font-size: 50px;
+  }
+  
+  .schedule-task-item-due-lower {
+    margin-top: 0.5rem;
+    font-size: 5rem;
+  }
+  
+  .schedule-task-item-content {
+    width: 100%;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 1rem;
+    margin-left: 3rem;
+  }
+  
+  .schedule-task-item-content-title {
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .schedule-task-item-content-title-text {
+    justify-content: flex-start;
+    font-size: 35px;
+    color: blueviolet;
+  }
+  
+  .schedule-task-item-content-title-icons {
+    justify-content: flex-end;
+  }
+  
+  .schedule-task-item-content-content {
+    margin-top: 0.5rem;
+    font-size:20px;
+    color:blueviolet;
+  }
+  
+  .spacer {
+    margin-top: 1rem;
+  }
+  
+  .schedule-task-item-menu {
+    cursor: pointer;
+  }
+  .xuongdong{
+    transform: translateY(50%);
+  }
+  #lichtrinh .keodai{
+    /* height:1323px; */
+    padding-bottom: 10px;
+  }
